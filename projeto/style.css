@@ -64,6 +64,9 @@ nav ul li a:hover { color: #f4a261; }
 .section h2 { text-align: center; margin-bottom: 30px; color: #2d6a4f; }
 .container { width: 90%; margin: auto; max-width: 1000px; }
 p { line-height: 1.7; }
+.container p {
+  text-align: justify;
+}
 
 /* Cards */
 .cards {
@@ -129,7 +132,7 @@ p { line-height: 1.7; }
   padding: 25px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(50px);
 }
 .impacto-item:hover { transform: scale(1.05); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
